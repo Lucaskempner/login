@@ -37,7 +37,42 @@
                 </h2>
                 <form action="#" method="post" class="p-2" id="formlogin">
                     <div class=form-group> 
-                        <input type="text" name="" id="">
+                        <input type="text" name="nomeUsuario" id="nomeusUario"
+                        placeholder="Nome de Usuario" class="form-control">
+                    </div>
+                    <div class="form-group"> 
+                        <input type="password" name="senhaUsuario" id="senhaUsuario"
+                        placeholder="senha" class="form-control"> 
+
+                    </div>
+                    
+
+                    <div class="form-group"> 
+                        <div class="custom-control custom-checkbox"> 
+                            <input type="checkbox" name="lembrar" id="lembrar"
+                            class="custom-control-input">
+                            <label for="lembrar" class="custom-control-label"> 
+                                    lembrar de mim.
+                            </label>
+
+                            <a href="#" class="float-right" id="btnEaqueci">
+                                esqueci a senha!
+                            </a>
+
+                        </div>
+                    </div> 
+                    
+                    <div class="form-group"> 
+                    <input type="submit" value="::Entrar::" name="btnEntrar"
+                    class="btn btn-primary btn-block">
+                    </div>
+
+                    <div class="form-group">
+                        <p class="text-center">Novo usuario ? <a href="#" id="btnregistrar">
+                            registre-se aqui !
+                        </a>
+
+                        </p>
                     </div>
                     
                 </form>
