@@ -36,23 +36,20 @@
 
                 </h2>
                 <form action="#" method="post" class="p-2" id="formlogin">
-                    <div class=form-group> 
-                        <input type="text" name="nomeUsuario" id="nomeusUario"
-                        placeholder="Nome de Usuario" class="form-control">
+                    <div class=form-group>
+                        <input type="text" name="nomeUsuario" id="nomeusUario" placeholder="Nome de Usuario" class="form-control">
                     </div>
-                    <div class="form-group"> 
-                        <input type="password" name="senhaUsuario" id="senhaUsuario"
-                        placeholder="senha" class="form-control"> 
+                    <div class="form-group">
+                        <input type="password" name="senhaUsuario" id="senhaUsuario" placeholder="senha" class="form-control">
 
                     </div>
-                    
 
-                    <div class="form-group"> 
-                        <div class="custom-control custom-checkbox"> 
-                            <input type="checkbox" name="lembrar" id="lembrar"
-                            class="custom-control-input">
-                            <label for="lembrar" class="custom-control-label"> 
-                                    lembrar de mim.
+
+                    <div class="form-group">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" name="lembrar" id="lembrar" class="custom-control-input">
+                            <label for="lembrar" class="custom-control-label">
+                                lembrar de mim.
                             </label>
 
                             <a href="#" class="float-right" id="btnEaqueci">
@@ -60,21 +57,20 @@
                             </a>
 
                         </div>
-                    </div> 
-                    
-                    <div class="form-group"> 
-                    <input type="submit" value="::Entrar::" name="btnEntrar"
-                    class="btn btn-primary btn-block">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="::Entrar::" name="btnEntrar" class="btn btn-primary btn-block">
                     </div>
 
                     <div class="form-group">
                         <p class="text-center">Novo usuario ? <a href="#" id="btnregistrar">
-                            registre-se aqui !
-                        </a>
+                                registre-se aqui !
+                            </a>
 
                         </p>
                     </div>
-                    
+
                 </form>
 
             </div>
@@ -84,38 +80,68 @@
         <br>
         <!-- formulario de recuperaçao de senha -->
         <section class="row mt-4">
-        <div class="col-lg-4 offset-lg-4 bg-light rounded" 
-        id="caixaLogin">
-        <h2 class="text-center mt-2">
-                gerar nova senha
-        </h2>
-            <form action="#" method="post" id class="p-2">
-                <div class="form-group">
-                    <small class="text-muted">
-            para gerar uma nova senha ,digite o seu e-mail.clique no limk gerado.
-                    </small>
-                </div>
-                <div class="form-control">
-                    <input type="email" name="emailGerarSenha" id="emailGerarSenha"
-                    class="form-control" placeholder="e-mail de recuperação de senha">
-                </div>
+            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaLogin">
+                <h2 class="text-center mt-2">
+                    gerar nova senha
+                </h2>
+                <form action="#" method="post" id class="p-2">
+                    <div class="form-group">
+                        <small class="text-muted">
+                            para gerar uma nova senha ,digite o seu e-mail.clique no limk gerado.
+                        </small>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="emailGerarSenha" id="emailGerarSenha" class="form-control" placeholder="e-mail de recuperação de senha">
+                    </div>
 
-                <div class="form-group">
-                    <input type="submit" value="::gerar::" name="btnGerar"
-                    id="btnGerar" class="btn btn-primary btn-block">
-                </div>
+                    <div class="form-group">
+                        <input type="submit" value="::gerar::" name="btnGerar" id="btnGerar" class="btn btn-primary btn-block">
+                    </div>
 
-                <div class="form-group">
-                    <p class="text-center">
-                        já registrado? <a href="#" id="btnjaRegistrado">
+                    <div class="form-group">
+                        <p class="text-center">
+                            já registrado? <a href="#" id="btnjaRegistrado">
                                 entrar por aqui
-                        </a>
-                    </p>
-                </div>
-            </form>
-        </div>
+                            </a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- fim da seção de  recuperação de senha -->
+
+        <!-- inicio do formulario de cadastro de novos usuarios -->
+
+        <section class="row mt-5">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaregistro">
+                <h2 class="text-center mt-2">
+                    Registrese-aqui
+                </h2>
+                <form action="#" method="post" class="p-2" id="formregistro">
+                    <div class="form-group">
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control" placeholder="nome completo">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="nomeUsuario" id="nomeUsuario" class="form-control" placeholder="nome de usuario">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="emailUsuario" id="emailUsuario" class="form-control" placeholder="e-mail">
+                        </div>
+
+                    <div class="form-group">
+                        <input type="password" name="senhaUsuario" id="senhaUsuario"
+                        class=form-control placeholder="senha">
+                    </div>
+
+                </form>
+
+
+            </div>
         </section>
 
+        <!-- final do formulario de cadastro de novos usuarios -->
 
     </main>
 
