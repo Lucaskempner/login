@@ -1,61 +1,92 @@
 # login
-sistema de login em PHP e javascript
-
-# aula 03 - 30/09/2019
-- formulario de cadastro de novos usuarios
-- validação dos campos com jQuery validate
-- ~ocultar e mostrar os formularios com jQuery~ 
-
-jQuery é uma biblioteca de funções javascript. 
+sistema de login em PHP e Javascript
 
 
+# aula05 - 04/10/2019
+- Envio de dados do Front-end para o Back-end, metodos GET e POST
 
-# aula 02 - 24/09/2019
-layout bootstrap para os formularios
+
+# aula04 - 01/10/2019
+- validação com HTML5
+- ~Validação dos campos de jQuery validate ~
+
+
+# aula03 - 30/09/2019
+- Formulario de  Cadastro de novos usuarios
+- ~Validação dos campos de jQuery validate ~
+- Ocultar e mostrar os formulario com jQuery
+
+ jQuery é uma biblioteca de funções javascript
+
+
+
+
+# aula02 - 24/09/2019
+layout Bootstrap para os formularios
 - formulario de login
 - formulario de recuperação de senha
-- ~formulario de de cadastro de novos usuarios~
+- ~formulario de cadastro de novos usuarios~
 
-# aula 01 - 23/09/2019
-🍁🌻começou a primavera🌹🍄
-aula inicial,configuração do projeto no github.
+# aula01 - 23/09/2019 :godmode:
+🍀começou a primavera🍀
+aula inicial, configuração do projeto no Github.
 e criação do passo a passo.
 
 
-...
+---
 # passo a passo em todo inicio de aula
 
-## habilitar o Proxy
-- Tecla Windows - Abrir a janela Prompt de Comando
+## Habilitar o Proxy
+Tecla Windows - Abrir a janela Prompt de Comando
 Copie e cole a linha abaixo - selecione e pressione as teclas Ctrl C
 
 git config --global http.proxy http://10.1.21.254:3128
 
-- Cole no Prompt de Comando
-- Pressione Enter
+Cole no prompt de comando e
+Pressione Enter
 
-## clonar o repositório **login** na pasta **c:\xampp\htdocs**
-- tecla windows - abrir o github desktop
-- clique em *sign in to github.com*
-- digite seu login e senha no github
-- caso necessario, após o login digite seu nome e e-mail e clique em *continue*
-- selecione o repositorio **login** e logo abaixo clique no botão azul *clone...*
-- clique no botão *choose* e encontre no disco local C: a pasta xampp e dentro dela htdocs
-- selecione a pasta e confira se o *local path* foi *c:\xampp\htdocs\login*
-- clique no botão azul *clone*
+## Colar o repositorio **login** na pasta **c:\xampp\htdocs**
 
-## habilitar o servidor web **apache** e o servidor **MySQL**
-- tecla windows - abrir o XAMPP control panel
-- clique em start para o apache 
-- clique em start para o mysql
-- verifique se apareceu a porta 80 apache e 3306 mysql
-- verifique se ficou verde o apache e mysql
+ - Tecla Windows - abri o Github Desktop
 
-## testar se está funcionando 
+  - Clique em *Sing in to Github.com*
 
-- abra o navegador firefox azul e digite 
+  - Digite seu Login e Senha do Github
 
-## editar utilizando o vs code
-- tecla windows - abrir o visual estudio code (é o azul)
-- *abra pasta* no vs code escolha c:\xampp\htdocs\login
+  - Caso necessario,apos o login, digite seu nome e email e clique em *continue*
 
+  - Selecione o repositorio **Login** e logo abaixo clique no botão azul
+ *clone...*
+
+  - Clique no botão *chose* e encontre no disco local C: a pasta xampp e dentro dela htdocs
+
+  - Selecione a pasta e confira se o *local path* foi *c:\xampp\htdocs\login
+
+  - Clique no botão *clone*
+  
+
+
+
+  ## Habilitar o servidopr web **Apache** e o servidor **MySQL**
+  - tecla Windows - Abri o Xampp control Panel
+
+  - Clique em Start para o Apache
+
+  - Clique em Start para o MySQL
+
+  - verifique se apareceu a porta 80 Apache E 3306 MySQL
+
+  - verifique se ficou verde o Apache e MySQL
+  
+
+
+
+  ## Testar se esta funcionando
+  - Abra o navegador Firefox azul e digite http://localhost/login
+
+
+
+  ## Editar utilizando o VS code 
+  - Tecla Windows - abri o visual Studio Code (é o azul)
+
+  - *Abrir pasta* no VS a pasta c:\xampp\htdocs\login
