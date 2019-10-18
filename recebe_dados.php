@@ -42,7 +42,8 @@ if (isset($_POST['action'])) {
         }else{
             //as senhas conferem , verificar se o usuario já
             //existe no banco de dados
-            $sql = $connect->prepare("SELECT nomeDoUsuario, emailUsuario FROM usuario WHERE nomeDoUsuario = ? OR emailUsuario = ?");
+            $sql = $connect->prepare("SELECT nomeDoUsuario, emailUsuario 
+            FROM usuario WHERE nomeDoUsuario = ? OR emailUsuario = ?");
             $sql->bind_param("ss", $nomeDoUsuario, $emailUsuario);
             $sql->execute();
             $resultado = $sql->get_result();
