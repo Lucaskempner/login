@@ -1,4 +1,6 @@
 <?php
+//iniciando a sessão
+session_start();
 //conexão com o banco de dados
 require_once 'configBD.php';
 
@@ -88,6 +90,7 @@ if (isset($_POST['action'])) {
         $busca = $sql->fetch();
 
         if($busca != null){
+            $_SESSION['nomeDoUsuario'] = $nomeUsuario;
             echo "ok";
         }else{
             echo "<p class='text-danger'>";
