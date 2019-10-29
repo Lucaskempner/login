@@ -53,20 +53,35 @@ require_once "session.php";
 
                 <?= $nomeCompleto ?>
 
-            </h2>
 
-            <h2 class="text-center">
-                E-mail do Usuario: 
-                <a href="mailto:<?= $emailUsuario ?>">
-                    <?=$emailUsuario?>
-                </a>
-            </h2>
+                <div class="row">
+                    <div class="col-4">
 
-            <h2 class="text-center">
-                Registrado em: <?= $dataCriado ?>
-            </h2>
+                        <img class="img-thumbnail" src="<?= $urlImagem ?>" />
+
+
+                    </div>
+                    <div class="col-8">
+                        <h2 class="text-center">
+                            E-mail do Usuario:
+                            <a href="mailto:<?= $emailUsuario ?>">
+                                <?= $emailUsuario ?>
+                            </a>
+                        </h2>
+
+                        <h2 class="text-center">
+                            Registrado em: <?= $dataCriado ?>
+
+                        </h2>
+
+
+
+                    </div>
+                </div>
+
         </div>
     </div>
+
 
 
     <!-- JavaScript (Opcional) -->
