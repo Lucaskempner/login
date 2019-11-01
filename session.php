@@ -14,7 +14,9 @@ if(isset($_SESSION['nomeDoUsuario'])){
     $nomeDoUsuario = $linha['nomeDoUsuario'];
     $nomeCompleto = $linha['nomeCompleto'];
     $emailUsuario = $linha ['emailUsuario'];
+    $urlImagem = $linha['urlImagem'];
     $dataCriado = $linha ['dataCriado'];
+    
 
     //converçao de data
     $dataCriado =  date('d/m/Y' , strtotime($dataCriado));

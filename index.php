@@ -159,10 +159,7 @@
                         <input type="url" name="urlFace" id="urlFace" placeholder="Pagina do perfil do Facebook" class="form-control">
                     </div>
 
-                    <div class="form-group">
-                        <label for="urlImagem">Imagem de perfil</label>
-                        <input type="url" name="urlImagem" id="urlImagem" placeholder="Link da imagem de perfil" class="form-control">
-                    </div>
+
 
 
                     <div class="form-group">
@@ -197,7 +194,7 @@
 
                     <div class="form-group">
                         <p class="text-center">
-                                  <a href="#" id="btnVoltar">
+                            <a href="#" id="btnVoltar">
                                 voltar.
                             </a>
                         </p>
@@ -225,6 +222,10 @@
 
                     <div class="form-group">
                         <input type="email" name="emailUsuario" id="emailUsuario" class="form-control" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="url" name="urlImagem" id="urlImagem" placeholder="Link da imagem de perfil" class="form-control">
                     </div>
 
                     <div class="form-group">

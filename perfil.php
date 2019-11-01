@@ -37,7 +37,7 @@ require_once "session.php";
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Sobre</a>
-                        <a class="dropdown-item" href="#">fotos</a>
+                        <a class="dropdown-item" href="fotos.php">fotos</a>
                         <a class="dropdown-item" href="sair.php">Sair</a>
                     </div>
                 </li>
@@ -52,13 +52,12 @@ require_once "session.php";
             <h2 class="display-2 text-center bg-info rounded p-1 text-ligth">
 
                 <?= $nomeCompleto ?>
-
+            </h2>
 
                 <div class="row">
                     <div class="col-4">
 
                         <img class="img-thumbnail" src="<?= $urlImagem ?>" />
-
 
                     </div>
                     <div class="col-8">
